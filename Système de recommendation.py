@@ -79,7 +79,7 @@ if "page" not in st.session_state:
 
 # Sidebar for movie selection and weights (always visible)
 with st.sidebar:
-    st.image('C:/Users/bmwsk/Desktop/WILD/project2/un_systeme_de_recommandation_de_films.png')
+    st.image('un_systeme_de_recommandation_de_films.png')
     st.title(f"Bienvenue sur le site de recommendation du groupe Peekaboo ")
     user_text_input = st.checkbox("🎬 Liste ?", value=True)
     
