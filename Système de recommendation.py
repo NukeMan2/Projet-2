@@ -11,7 +11,7 @@ from fuzzywuzzy import fuzz, process
 import time
 
 # Load the data
-dummy = pd.read_csv('C:/Users/bmwsk/Desktop/WILD/project2/dummy.csv')
+dummy = pd.read_csv('dummy.csv')
 
 movie_title = dummy["primaryTitle"]
 movie_tconst = dummy['tconst']
